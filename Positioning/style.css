@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+}
+.content{
+    border: 1px solid blue;
+    margin: 5px 10px ;
+    padding: 0px 5px ;
+}
+.position-static{
+    border: 1.5px solid green;
+    background-color: aqua;
+    position: static;
+    top: 12px;
+    right: 67px;
+}
+.position-relative{
+    border: 1.5px solid green;
+    background-color: aqua;
+    position: relative;
+    top: 30px;
+    left: 45px;
+}
+.content-2{
+    border: 1px solid green;
+    background-color: aqua;
+    margin: 5px 10px ;
+    padding: 0px 5px ;
+}
+/* .position-absolute{
+    position:absolute;
+    top: 50px;
+    bottom: 70px;
+} */
+ .position-sticky{
+    position: sticky;
+ }
+ /* .position-fixed{
+    position: fixed;
+    top: 20px;
+    right: 40px;
+ } */
