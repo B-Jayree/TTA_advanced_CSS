@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    /*flex-direction: row;*/
+    /*flex-direction: column;*/
+    /* flex-direction: column-reverse; */
+     flex-direction: row-reverse;
+}
+.container-2{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    /* height: 100vh; */
+}
+.content{
+    border: 1px solid blue;
+    width: 30%;
+    margin: 5px 10px ;
+    padding: 0px 5px ;
+}
+.container-3{
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+
+}
