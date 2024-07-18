@@ -1,0 +1,33 @@
+.container{
+display: flex;
+}
+.content{
+border: 1px solid blue;
+margin: 3px 20px;
+padding: 10px;
+}
+@media screen and  (max-width: 600px ){
+    .container{
+        display: flex ;
+        flex-direction: column;
+    
+    }
+    h1{
+        text-align: center;
+    }
+    .content-2{
+        display: none;
+    }
+    content{
+        margin: 10px 5px;
+        width: 50%;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 750px ){
+    body{
+        background-color: red;
+    }
+    h1{
+        text-align: center;
+    }
+}
