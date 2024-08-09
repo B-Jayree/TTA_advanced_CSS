@@ -32,3 +32,15 @@ ul li a{
     border:none;
     background-color:blue;
 }
+.navigation ul li:nth-child(even){
+  background-color:blue;
+}
+#pseudo-elements p::before{
+    content:"NOTE:";
+    font-weight: bold;
+}
+#pseudo-elements p::after{
+    content:"(End of note)";
+    font-weight:italic;
+    text-transform: uppercase;
+}
