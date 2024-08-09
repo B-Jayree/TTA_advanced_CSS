@@ -1,0 +1,34 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+.navigation{
+    background-color:black;
+    text-align:center;
+    padding: 10px 0px;
+}
+ul li{
+    display:inline;
+  
+   
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 5px;
+}
+.navigation a:hover{
+    background-color:white;
+    color: black;
+}
+.form{
+    margin:15px;
+}
+.form input{
+    border:2px dashed red;
+}
+.form input:focus{
+    border:none;
+    background-color:blue;
+}
